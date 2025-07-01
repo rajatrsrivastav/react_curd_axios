@@ -1,12 +1,11 @@
-import { useState } from 'react'
+import Post from "./components/post";
 
 function App() {
-
   return (
-    <>
-    hello
-    </>
+    <div className="bg-black">
+      <Post/>
+    </div>
   )
 }
 
-export default App
+export default App;
